@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const portfinder = require('portfinder');
 const leetcodeRoute = require('./Routes/LeetcodeRoute.js');
 
 dotenv.config();
